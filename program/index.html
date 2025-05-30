@@ -48,17 +48,7 @@
       <a href="program/day2.html" class="day-link">Jour 2</a>
       <a href="program/day3.html" class="day-link">Jour 3</a>
     </div>
-    <script>
-      const dayLinks = document.querySelectorAll('#day-selector a');
-      const currentPage = window.location.pathname.split('/').pop();
-    
-      dayLinks.forEach(link => {
-        if (link.getAttribute('href') === currentPage || 
-           (currentPage === '' && link.getAttribute('href') === 'index.html')) {
-          link.classList.add('current');
-        }
-      });
-    </script>
+
 
     <h2>Programme - Jeudi 19 Juin 2025</h2>
 
