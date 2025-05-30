@@ -142,4 +142,24 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
   color: #333;
   margin-top: 0.5rem;
 }
+#day-selector {
+  margin-bottom: 1em;
+}
+
+.day-link {
+  padding: 0.5em 1em;
+  margin-right: 0.5em;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #eee;
+}
+
+.day-link.current {
+  background-color: #4285f4;
+  color: white;
+  border-color: #3367d6;
+  pointer-events: none; /* Disable clicking current page */
+}
 
