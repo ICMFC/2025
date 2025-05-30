@@ -188,3 +188,12 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     vertical-align: top;
     width: 50%;
 }
+.flyers .flyer {
+    padding-bottom: 2em;
+}
+
+.flyers .flyer h3 {
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    color: #333;
+}
