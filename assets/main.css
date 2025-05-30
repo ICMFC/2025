@@ -180,4 +180,6 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 .external-link-section a:hover {
     text-decoration: underline;
 }
-
+.external-link-section h2 {
+    text-align: left;
+}
